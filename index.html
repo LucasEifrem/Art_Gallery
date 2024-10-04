@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="Style/inputs.css" />
+    <link rel="stylesheet" href="Style/generated.css" />
+    <title>Resipe gallery</title>
+  </head>
+  <body>
+    <section id="headerSection">
+      <header>
+        <div>
+          <h1>Resipes</h1>
+        </div>
+        <div id="links">
+          <a href="recipeps.html">Make your own recipe!</a>
+        </div>
+      </header>
+    </section>
+    <section id="main">
+      <main id="main">
+        <div class="inputs">
+          <form action="">
+            <input
+              type="text"
+              id="imageLink"
+              class="input"
+              placeholder="Place your picture here"
+            />
+            <input
+              type="text"
+              id="inputName"
+              class="input"
+              placeholder="Input the recipe name here"
+            />
+            <input
+              type="text"
+              id="inputDescription"
+              class="input"
+              placeholder="Do an descripption here"
+            />
+            <input
+              type="text"
+              id="inputSteps"
+              class="input"
+              placeholder="This is where you place all of the diffrent steps necessary"
+            />
+            <button
+              id="buttonSubmit"
+              class="input"
+              class="button"
+              type="submit"
+            >
+              Submit your recipe
+            </button>
+            <button
+              id="buttonRemove"
+              class="input"
+              class="button"
+              type="button"
+            >
+              Remove all recipes
+            </button>
+          </form>
+        </div>
+
+        <div id="recipesContainer"></div>
+      </main>
+    </section>
+  </body>
+  <script type="module" src="Javascript/javascript.js"></script>
+  <script type="module" src="Javascript/data.js"></script>
+</html>

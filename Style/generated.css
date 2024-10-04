@@ -1,0 +1,23 @@
+#generatedContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+#gCV {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secoundarycolr);
+  border: double var(--textcolor) 6px;
+  border-radius: 15px;
+}
+#vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  align-items: center;
+    margin: 1rem;
+}
